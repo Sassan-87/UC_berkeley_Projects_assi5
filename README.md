@@ -2,7 +2,8 @@
 This repo contains the code for the practical application5
 By Sasan shadpour
 
-`prompt.ipynb` 
+- [Open Notebook](prompt.ipynb)
+
 
 ## Key Findings
 
