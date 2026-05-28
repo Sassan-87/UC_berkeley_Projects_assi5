@@ -3,28 +3,6 @@ This repo contains the code for the practical application5
 By Sasan shadpour
 
 
-Findings:
-
-# Coupon Acceptance Analysis
-
-## Overview
-
-This project analyzes driving coupon acceptance patterns using data from the UCI Machine Learning repository. The analysis explores what factors influence whether drivers accept coupons for different venues through visualizations and statistical summaries.
-
-## Dataset
-
-The dataset contains survey responses describing different driving scenarios including:
-- **User attributes**: Gender, age, marital status, income, education, occupation
-- **Contextual attributes**: Driving destination, weather, temperature, time, passenger type
-- **Coupon attributes**: Coupon type, expiration time
-
-**Coupon Types**: 
-- Less expensive restaurants (under $20)
-- Coffee houses
-- Carry out & take away
-- Bars
-- More expensive restaurants ($20-$50)
-
 ## Key Findings
 
 ### Bar Coupon Analysis
@@ -100,35 +78,5 @@ These drivers view bar coupons as fitting their lifestyle and are more likely to
 - People on routine/habitual routes
 - Less dependent on day/weather compared to other coupon types
 
----
 
-## Methodology
 
-- **Data Cleaning**: Removed records with missing critical information
-- **Statistical Analysis**: Calculated acceptance rates across demographic segments
-- **Visualization**: Used heatmaps and groupby analysis to identify patterns
-- **Comparative Analysis**: Compared target groups vs. control groups
-
-## Insights for Marketing
-
-1. **Bar Coupons**: Target socially-active, younger demographic without children
-2. **Coffee House Coupons**: Time-targeted campaigns (morning/commute focused)
-3. **Coupon Timing**: Delivery time should match driver's schedule and destination
-4. **Social Context**: Passenger type is crucial for restaurant/bar venues
-
-## Files
-
-- `coupons.csv` - Main dataset
-- `prompt.ipynb` - Analysis notebook with code and visualizations
-- `README.md` - This file
-
-## Tools Used
-
-- Python 3
-- Pandas (data manipulation)
-- Matplotlib & Seaborn (visualizations)
-- NumPy (numerical analysis)
-
----
-
-*Analysis completed as part of Machine Learning coursework - Module 5*
